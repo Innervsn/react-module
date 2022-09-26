@@ -1,0 +1,121 @@
+.dish-page__container {
+  max-width: 1440px;
+}
+
+.dish-page__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 53px;
+  display: flex;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.dish-page__button_back {
+  display: block;
+  margin-right: 74px;
+  width: 30px;
+  height: 30px;
+  background-image: url(/public/images/basket_btn_arrow_back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #d58c51;
+  background-color: #100f10;
+  border-radius: 50px;
+}
+
+.dish-page__button_back:hover {
+  opacity: 0.7;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.dish-page__inputs {
+  display: flex;
+  align-items: center;
+}
+
+.dish-page__header__btn {
+  margin-left: 32px;
+  width: 200px;
+  height: 42px;
+  text-align: center;
+  padding-top: 10px;
+  background: #161516;
+  border: 1px solid #d58c51;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #d58c51;
+}
+
+.dish-page__card {
+  border: 1px solid #d58c51;
+  padding: 0px 70px 0px 140px;
+  height: 734px;
+  display: flex;
+  align-items: center;
+  background-image: url("/public/images/dish_page_background.svg");
+}
+
+.dish-page__card__preview {
+  margin-right: 200px;
+  width: 501px;
+}
+
+.dish-page__discription {
+  max-width: 528px;
+}
+
+.dish-page__discription__text {
+  margin-bottom: 34px;
+  height: 308px;
+}
+
+.dish-page__discription__text-title {
+  margin-bottom: 21px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #d58c51;
+}
+
+.dish-page__discription__text-about {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.dish-page__discription__amount {
+  display: flex;
+  align-items: center;
+}
+
+.dish-page__discription__amount-price {
+  margin-right: 70px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.dish-page__discription__amount-btn {
+  width: 200px;
+  height: 42px;
+  background: #d58c51;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #131313;
+}

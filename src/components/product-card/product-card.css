@@ -1,0 +1,25 @@
+.products_cards {
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: right;
+}
+
+.products {
+  margin-right: 20px;
+}
+
+.basket__button {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-image: url("/public/images/basket.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.basket__button:hover {
+  opacity: 0.7;
+  transition: 0.6s;
+  cursor: pointer;
+}

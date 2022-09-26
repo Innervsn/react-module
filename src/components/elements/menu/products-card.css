@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+.card {
+  margin-bottom: 35px;
+  border: 1px solid #d58c51;
+}
+
+.card__preview {
+  display: block;
+  margin: 43px auto 31px auto;
+}
+
+.card__text {
+  height: 235px;
+}
+.card__title {
+  margin: 0 30px 13px 21px;
+}
+
+.card__discription {
+  display: block;
+  margin: 0 30px auto 21px;
+}
+
+.card_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 13px 21px;
+}
+
+.card__button:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.card__button {
+  margin-right: 30px;
+  background: url("/public/images/food_add.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  border-radius: 19px;
+  border: 2px solid #fff;
+  transition: 1.5s;
+}
+
+.card__button:active {
+  background-color: #d58c51;
+  background-image: url("/public/images/food_add.svg");
+  opacity: 1;
+  transition: 0s;
+}

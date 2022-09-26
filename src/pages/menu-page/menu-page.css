@@ -1,0 +1,45 @@
+.menu__container {
+  max-width: 1300px;
+}
+
+.menu-page {
+  justify-content: space-between;
+  display: flex;
+  height: calc(100vh - 210px);
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  gap: 7px;
+  margin-bottom: 50px;
+}
+
+.menu-page::-webkit-scrollbar {
+  width: 0;
+}
+
+.menu__header {
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+.menu__header__inputs {
+  display: flex;
+  align-items: center;
+}
+
+.menu__header__btn {
+  margin-left: 32px;
+  width: 200px;
+  height: 42px;
+  text-align: center;
+  padding-top: 10px;
+  background: #161516;
+  border: 1px solid #d58c51;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #d58c51;
+}

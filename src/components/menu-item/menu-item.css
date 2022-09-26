@@ -1,0 +1,26 @@
+
+
+.card__item {
+  margin-bottom: 35px;
+  border: 1px solid #d58c51;
+  width: 312px;
+}
+
+.card__preview {
+  display: block;
+  margin: 43px auto 31px auto;
+}
+
+.card__text {
+  height: 235px;
+}
+
+.card__title {
+  margin: 0 30px 13px 21px;
+}
+
+.card__discription {
+  display: block;
+  margin: 0 30px auto 21px;
+}
+

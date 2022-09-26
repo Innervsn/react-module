@@ -1,0 +1,10 @@
+.header-container {
+  max-width: 1300px;
+}
+
+.header {
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}

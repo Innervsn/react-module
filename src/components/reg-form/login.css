@@ -1,0 +1,171 @@
+.login-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.login-form {
+  margin: 82px auto;
+  width: 460px;
+  padding: 36px 20px 34px 20px;
+  background: white;
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+}
+
+.login-link {
+  text-align: right;
+  margin-right: 90px;
+}
+
+.login-link-entry {
+  top: 95px;
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height */
+
+  text-align: right;
+  text-decoration-line: underline;
+
+  color: #d58c51;
+}
+
+.login-link-entry:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.login-title {
+  margin-bottom: 36px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #161516;
+  text-align: center;
+}
+
+.login-space {
+  line-height: 2;
+  text-align: left;
+  display: block;
+
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.login-input {
+  width: 100%;
+  padding-left: 18px;
+  display: block;
+  height: 39px;
+  border: 1px solid #d58c51;
+  border-radius: 61px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.login-input:focus {
+  outline: 1px solid #d58c51;
+}
+
+::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #161516;
+}
+
+.login-error {
+  height: 15px;
+  padding-left: 20px;
+}
+
+.login-error-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 10px;
+  color: #ff0b0b;
+}
+
+.login-check-block {
+  margin-bottom: 30px;
+}
+
+.login-check {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.login-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.login-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.login-checkbox + label::before {
+  cursor: pointer;
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #d58c51;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.login-checkbox:checked + label::before {
+  background-image: url("../../../public/images/check_mark.png");
+  background-size: 12px;
+}
+
+.login-check-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #301411;
+}
+
+.login-submit {
+  text-align: center;
+}
+
+.login-submit-btn {
+  width: 200px;
+  height: 42px;
+  background: #d58c51;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #131313;
+}

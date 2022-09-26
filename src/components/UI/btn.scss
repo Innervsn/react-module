@@ -1,0 +1,12 @@
+.block {
+  &__title {
+    color: blue;
+  }
+
+  &__button {
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    border-color: blue;
+  }
+}

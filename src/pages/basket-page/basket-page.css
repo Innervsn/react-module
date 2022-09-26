@@ -1,0 +1,116 @@
+.basket__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 53px;
+  display: flex;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.basket__button_back {
+  display: block;
+  margin-right: 74px;
+  width: 30px;
+  height: 30px;
+  background-image: url(/public/images/basket_btn_arrow_back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #d58c51;
+  background-color: #100f10;
+  border-radius: 50px;
+}
+
+.basket__button_back:hover {
+  opacity: 0.7;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.basket__header__btn{
+  margin-left: 32px;
+  width: 200px;
+  height: 42px;
+  text-align: center;
+  padding-top: 10px;
+  background: #161516;
+  border: 1px solid #d58c51;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #d58c51;
+}
+
+.basket__header_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.basket_block {
+  margin: 0 auto;
+  width: 860px;
+}
+
+.basket_list {
+  margin-bottom: 71px;
+}
+
+.basket_line_block {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.basket_list-line {
+  margin-bottom: 20px;
+  border: 1px solid #d58c51;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.basket__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basket__footer_price {
+  display: flex;
+  align-items: baseline;
+}
+
+.basket__footer_price-text {
+  margin-right: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.basket__footer_price-amount {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #d58c51;
+}
+
+.basket__footer_button {
+  width: 200px;
+  height: 42px;
+  background: #d58c51;
+}
+
+.basket__footer_button:hover {
+  opacity: 0.7;
+  transition: 0.6s;
+  cursor: pointer;
+}

@@ -1,0 +1,200 @@
+.registration-form {
+  margin: 82px auto;
+  width: 600px;
+  padding: 26px 45px 26px 45px;
+  background: white;
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.registration-title {
+  margin: 0px 0px 13px 0px;
+  font-family: "Roboto";
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  color: #787878;
+}
+
+.registration-inputs {
+  margin-bottom: 0px;
+}
+
+.registration-inputs-text {
+  margin: 3px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #787878;
+}
+
+.registration-space {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.registration-atantion {
+  position: absolute;
+  left: -14px;
+  margin: 4px 4px 0px 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #787878;
+}
+
+.registration-element {
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 10px;
+  height: 49px;
+  border-radius: 10px;
+  display: block;
+  border-style: solid;
+  background: #ffffff;
+}
+
+::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  color: #cccccc;
+}
+
+.registration-error {
+  position: absolute;
+  margin: 1px;
+  display: none;
+  color: red;
+}
+
+.registration-check {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.registration-check-atantion {
+  position: absolute;
+  left: -14px;
+  margin-right: 4px;
+  padding-bottom: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #787878;
+}
+
+.registration-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.registration-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.registration-checkbox + label::before {
+  cursor: pointer;
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 2px solid #787878;
+  border-radius: 7px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.registration-checkbox:checked + label::before {
+  background-image: url(/public/images/ok.png);
+  background-size: 20px;
+}
+
+.registration-invalid_check + label::before {
+  border: 2px solid red;
+}
+
+.registration-text {
+  margin: 0px;
+  text-align: left;
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #787878;
+}
+
+.registration-agree {
+  margin-left: 5px;
+  text-decoration: underline;
+  color: #787878;
+}
+
+.registration {
+  text-align: center;
+}
+
+.registration-submit {
+  width: 180px;
+  height: 52px;
+  background: #1a226b;
+  border-radius: 10px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.registration-submit:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.registration-link {
+  text-align: right;
+  margin-right: 70px;
+}
+
+.registration-link-entry {
+  top: 95px;
+  position: absolute;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1a226b;
+}
+
+.registration-link-entry:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.registration-error-check {
+  margin-bottom: 35px;
+}
